@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuestion.GeometricCalculator", "CodingQuestion.GeometricCalculator\CodingQuestion.GeometricCalculator.csproj", "{453F1371-12A9-44E5-946A-13FC21F1FDEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuestion.Entity", "CodingQuestion.Entity\CodingQuestion.Entity.csproj", "{D7F57EA2-D6FD-488F-B912-0065E7E739A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1103161C-7E31-4BC8-AE34-825B510EFAA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuestion.GeometricCalculatorTest", "CodingQuestion.GeometricCalculatorTest\CodingQuestion.GeometricCalculatorTest.csproj", "{74C26910-608C-4AA9-BCF4-A02E81DAC68D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{5ADF201D-13E2-4EE2-927D-A6E0A88895A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuestion.GeometricAPI", "CodingQuestion.GeometricAPI\CodingQuestion.GeometricAPI.csproj", "{98448882-1891-488F-B417-50175C3FBF44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{EF1EF708-1506-4981-BF19-F6DEDAB39BDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{2BD1447F-F1EB-4EB2-875C-08C95533C41B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuestion.GeometricAPITest", "CodingQuestion.GeometricAPITest\CodingQuestion.GeometricAPITest.csproj", "{EEB08E94-0308-42C2-8A7B-F56669F5170D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuestion.GeometricInterface", "CodingQuestion.GeometricInterface\CodingQuestion.GeometricInterface.csproj", "{4625AF35-97F7-430C-B92B-C08E7F6F6955}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3155A490-1A13-423C-A491-1E1E3C164CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingQuestion.Common", "CodingQuestion.Common\CodingQuestion.Common.csproj", "{75B1F1CD-88DA-485A-8003-910DDCCAE484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{453F1371-12A9-44E5-946A-13FC21F1FDEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453F1371-12A9-44E5-946A-13FC21F1FDEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453F1371-12A9-44E5-946A-13FC21F1FDEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453F1371-12A9-44E5-946A-13FC21F1FDEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F57EA2-D6FD-488F-B912-0065E7E739A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F57EA2-D6FD-488F-B912-0065E7E739A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F57EA2-D6FD-488F-B912-0065E7E739A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F57EA2-D6FD-488F-B912-0065E7E739A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C26910-608C-4AA9-BCF4-A02E81DAC68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C26910-608C-4AA9-BCF4-A02E81DAC68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C26910-608C-4AA9-BCF4-A02E81DAC68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C26910-608C-4AA9-BCF4-A02E81DAC68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98448882-1891-488F-B417-50175C3FBF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98448882-1891-488F-B417-50175C3FBF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98448882-1891-488F-B417-50175C3FBF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98448882-1891-488F-B417-50175C3FBF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB08E94-0308-42C2-8A7B-F56669F5170D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB08E94-0308-42C2-8A7B-F56669F5170D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB08E94-0308-42C2-8A7B-F56669F5170D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB08E94-0308-42C2-8A7B-F56669F5170D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4625AF35-97F7-430C-B92B-C08E7F6F6955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4625AF35-97F7-430C-B92B-C08E7F6F6955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4625AF35-97F7-430C-B92B-C08E7F6F6955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4625AF35-97F7-430C-B92B-C08E7F6F6955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B1F1CD-88DA-485A-8003-910DDCCAE484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B1F1CD-88DA-485A-8003-910DDCCAE484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B1F1CD-88DA-485A-8003-910DDCCAE484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B1F1CD-88DA-485A-8003-910DDCCAE484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{453F1371-12A9-44E5-946A-13FC21F1FDEB} = {EF1EF708-1506-4981-BF19-F6DEDAB39BDF}
+		{D7F57EA2-D6FD-488F-B912-0065E7E739A4} = {2BD1447F-F1EB-4EB2-875C-08C95533C41B}
+		{74C26910-608C-4AA9-BCF4-A02E81DAC68D} = {1103161C-7E31-4BC8-AE34-825B510EFAA1}
+		{98448882-1891-488F-B417-50175C3FBF44} = {5ADF201D-13E2-4EE2-927D-A6E0A88895A5}
+		{EEB08E94-0308-42C2-8A7B-F56669F5170D} = {1103161C-7E31-4BC8-AE34-825B510EFAA1}
+		{4625AF35-97F7-430C-B92B-C08E7F6F6955} = {EF1EF708-1506-4981-BF19-F6DEDAB39BDF}
+		{75B1F1CD-88DA-485A-8003-910DDCCAE484} = {3155A490-1A13-423C-A491-1E1E3C164CF2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BD4CD86-F66F-4AE0-B403-0226C575C9FD}
+	EndGlobalSection
+EndGlobal
